@@ -1,0 +1,15 @@
+package com.parivahan.backend.alertsystem.enums;
+
+public enum AlertType {
+    GEOFENCE_BREACH,
+    PUC_EXPIRY,
+    INSURANCE_EXPIRY,
+    TAX_EXPIRY,
+    CHALLAN_ISSUED,
+    GUARDIAN_MODE_ENABLED,
+    GUARDIAN_MODE_DISABLED,
+    FLEET_ROUTE_DEVIATION,
+    FLEET_GPS_OFFLINE,
+    FLEET_GPS_RESTORED,
+    GENERAL
+}

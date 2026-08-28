@@ -1,0 +1,20 @@
+package com.parivahan.backend.assistant.model;
+
+public enum VehicleIntent {
+    VEHICLE_OVERVIEW,
+    HEALTH_SCORE,
+    DOCUMENT_STATUS,
+    PUC_STATUS,
+    INSURANCE_STATUS,
+    TAX_STATUS,
+    RC_STATUS,
+    PERMIT_STATUS,
+    FITNESS_STATUS,
+    CHALLAN_STATUS,
+    CHALLAN_DETAILS,
+    LIVE_LOCATION,
+    ACTIVE_ALERTS,
+    EXPIRING_DOCUMENTS,
+    WHAT_TO_DO_TODAY,
+    GENERAL_VEHICLE_QUESTION
+}
